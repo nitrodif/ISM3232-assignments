@@ -1,3 +1,7 @@
 function Car(make, speed) {
   this.make = make;
   this.speed = speed;
+ this.accelerate = function() {
+    this.speed += 10;
+    console.log(this.speed);
+  };
