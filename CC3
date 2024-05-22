@@ -5,3 +5,8 @@ function Car(make, speed) {
     this.speed += 10;
     console.log(this.speed);
   };
+this.brake = function() {
+    this.speed -= 5;
+    console.log(this.speed);
+  };
+}
